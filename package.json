@@ -1,6 +1,6 @@
 {
   "name": "uppity",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Search upwards for files.",
   "scripts": {
     "test": "istanbul test --print both ./node_modules/mocha/bin/_mocha"
