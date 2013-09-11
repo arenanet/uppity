@@ -7,7 +7,7 @@ This is pretty new, [findup-sync](https://github.com/cowboy/node-findup-sync/) m
 
 ## Usage ##
 
-`npm install uppity`
+Install via NPM. `npm install uppity`
 
 ```javascript
 var uppity = require("uppity"),
