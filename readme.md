@@ -1,5 +1,7 @@
-Uppity [![Build Status](https://travis-ci.org/tivac/uppity.png?branch=master)](https://travis-ci.org/tivac/uppity) [![Packages](https://david-dm.org/tivac/uppity/status.png)](https://david-dm.org/tivac/uppity/) [![Dev Packages](https://david-dm.org/tivac/uppity/dev-status.png)](https://david-dm.org/tivac/uppity/) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tivac/uppity/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+uppity
 ======
+[![Build Status](https://travis-ci.org/tivac/uppity.png?branch=master)](https://travis-ci.org/tivac/uppity) [![Packages](https://david-dm.org/tivac/uppity/status.png)](https://david-dm.org/tivac/uppity/) [![Dev Packages](https://david-dm.org/tivac/uppity/dev-status.png)](https://david-dm.org/tivac/uppity/) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tivac/uppity/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
 Glob every directory in the current branch of the file system tree, returning files that match in order from closest to furthest. Synchronously, because this is intended for CLI usage.
 
