@@ -1,5 +1,7 @@
 uppity
 ======
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/arenanet/uppity.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/tivac/uppity.png?branch=master)](https://travis-ci.org/tivac/uppity) [![Packages](https://david-dm.org/tivac/uppity/status.png)](https://david-dm.org/tivac/uppity/) [![Dev Packages](https://david-dm.org/tivac/uppity/dev-status.png)](https://david-dm.org/tivac/uppity/) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tivac/uppity/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 
