@@ -15,3 +15,5 @@ node_modules
 temp
 coverage
 output
+
+.nyc_output
