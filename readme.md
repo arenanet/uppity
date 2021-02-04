@@ -1,7 +1,7 @@
 uppity
 ======
 
-[![Build Status](https://travis-ci.org/arenanet/uppity.svg?branch=master)](https://travis-ci.org/arenanet/uppity) [![Packages](https://david-dm.org/tivac/uppity/status.png)](https://david-dm.org/tivac/uppity/) [![Dev Packages](https://david-dm.org/tivac/uppity/dev-status.png)](https://david-dm.org/tivac/uppity/)
+[![Build Status](https://travis-ci.org/arenanet/uppity.svg?branch=master)](https://travis-ci.org/arenanet/uppity) [![Packages](https://david-dm.org/arenanet/uppity.svg)](https://david-dm.org/arenanet/uppity)
 
 Glob every directory in the current branch of the file system tree, returning files that match in order from closest to furthest. Synchronously, because this is intended for CLI usage.
 
