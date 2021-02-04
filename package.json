@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tivac/uppity.git"
+    "url": "https://github.com/arenanet/uppity.git"
   },
   "author": "Pat Cavit <pcavit@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tivac/uppity/issues"
+    "url": "https://github.com/arenanet/uppity/issues"
   },
   "devDependencies": {
     "mocha": "^8.2.1",
