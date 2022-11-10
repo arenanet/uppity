@@ -16,7 +16,7 @@
     "url": "https://github.com/arenanet/uppity/issues"
   },
   "devDependencies": {
-    "mocha": "^8.2.1",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0"
   },
   "dependencies": {
