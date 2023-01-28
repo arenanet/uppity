@@ -1,13 +1,10 @@
-/*jshint node:true */
-
 "use strict";
 
-var assert = require("assert"),
-    uppity = require("../lib/uppity.js"),
-    cwd    = process.cwd();
+const assert = require("assert");
+const uppity = require("../lib/uppity.js");
+const cwd    = process.cwd();
 
 describe("Uppity", function() {
-    
     afterEach(function() {
         process.chdir(cwd);
     });
@@ -17,7 +14,7 @@ describe("Uppity", function() {
     });
     
     it("should make a copy of the glob args", function() {
-        var obj = { fooga : 1 };
+        const obj = { fooga : 1 };
         
         uppity("*.fooga", obj);
         
@@ -34,7 +31,7 @@ describe("Uppity", function() {
     it("should find local files", function() {
         process.chdir("./test/specimens/local");
         
-        var files = uppity("a.txt");
+        const files = uppity("a.txt");
         
         assert(files.length);
         assert.equal(files.length, 1);
@@ -43,7 +40,7 @@ describe("Uppity", function() {
     it("should find files in parent directories", function() {
         process.chdir("./test/specimens/parent");
         
-        var files = uppity("a.txt");
+        const files = uppity("a.txt");
         
         assert(files.length);
         assert.equal(files.length, 1);
@@ -52,16 +49,16 @@ describe("Uppity", function() {
     it("should find multiple files", function() {
         process.chdir("./test/specimens/deep/these/folders/are/silly");
         
-        var files = uppity("a.txt");
+        const files = uppity("a.txt");
         
         assert(files.length);
         assert.equal(files.length, 3);
     });
     
     it("should support manually defining the starting dir", function() {
-        var files = uppity("a.txt", {
-                cwd : "./test/specimens/local"
-            });
+        const files = uppity("a.txt", {
+            cwd : "./test/specimens/local"
+        });
         
         assert(files.length);
         assert.equal(files.length, 1);
