@@ -1,0 +1,19 @@
+{
+    "extends" : [ "arenanet" ],
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "env": {
+        "node" : true
+    },
+    "overrides": [
+        {
+            "files" : [
+                "./test/**/*.js"
+            ],
+            "env": {
+                "mocha": true
+            }
+        }
+    ]
+}
