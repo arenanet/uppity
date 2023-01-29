@@ -1,6 +1,6 @@
 # uppity
 
-[![Node.js Package](https://github.com/arenanet/uppity/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/arenanet/uppity/actions/workflows/npm-publish.yml)
+[![test](https://github.com/arenanet/uppity/actions/workflows/test.yml/badge.svg)](https://github.com/arenanet/uppity/actions/workflows/test.yml)
 
 Glob every directory in the current branch of the file system tree, returning files that match in order from closest to furthest. Synchronously, because this is intended for CLI usage.
 
