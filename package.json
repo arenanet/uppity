@@ -1,6 +1,6 @@
 {
   "name": "uppity",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Search upwards for files.",
   "main": "./lib/uppity.js",
   "scripts": {
